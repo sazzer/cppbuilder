@@ -1,0 +1,8 @@
+module 'lib'
+type 'library'
+language 'c++'
+
+module 'exec'
+type 'executable'
+language 'c++'
+dependsOn 'lib'

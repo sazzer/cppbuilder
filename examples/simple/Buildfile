@@ -1,0 +1,4 @@
+module 'simple'
+type 'executable'
+language 'c++'
+base '.'

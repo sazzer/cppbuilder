@@ -1,0 +1,5 @@
+module 'simple'
+type 'executable'
+language 'c++'
+compilerOptions('version', 'c++11')
+base '.'
