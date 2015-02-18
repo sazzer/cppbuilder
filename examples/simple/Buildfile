@@ -1,4 +1,4 @@
-module 'simple'
-type 'executable'
-language 'c++'
-base '.'
+simple = module('simple')
+simple.type = EXECUTABLE
+simple.language = 'c++'
+simple.base = '.'

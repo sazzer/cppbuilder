@@ -1,8 +1,8 @@
-module 'lib'
-type 'library'
-language 'c++'
+default.language = 'c++'
 
-module 'exec'
-type 'executable'
-language 'c++'
-dependsOn 'lib'
+lib = module('lib')
+lib.type = STATIC_LIBRARY
+
+exec = module('exec')
+exec.type = EXECUTABLE
+exec.dependsOn(lib)
